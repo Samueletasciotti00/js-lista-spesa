@@ -40,10 +40,15 @@ document.getElementById('stampa').addEventListener('click',
             //Append dell prodotto alla lista
             listaElement.appendChild(prodotto);
 
+            // Forza il reflow per l'animazione
+            window.getComputedStyle(prodotto).opacity;
+
+            // Aggiunge la classe per l'animazione
+            prodotto.classList.add('visible');
+
             //Incremento del contatore
             i++;
-    
-            }
+        }   
     }
 )
 
