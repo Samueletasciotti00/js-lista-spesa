@@ -1,5 +1,8 @@
 // Definiamo la lista della spesa
 const listaSpesa = ['pane', 'latte', 'uova', 'burro', 'salame'];
+
+// DEBUG
+console.log(listaSpesa);
 // Otteniamo il riferimento all'elemento ul
 
 // Inizializziamo un indice
